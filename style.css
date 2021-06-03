@@ -47,3 +47,19 @@ nav ul li a{
 nav ul li a:hover {
     color: #ff5361;
 }
+
+.upload-btn {
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-left: 25px;
+    transition: transform 0.5s;
+}
+
+.upload-btn:hover {
+    transform: scale(0.9);
+
+}
+
