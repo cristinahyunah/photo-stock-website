@@ -73,6 +73,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: #fff;
 }
 
@@ -86,10 +87,16 @@ nav ul li a:hover {
     width: 90%;
     max-width: 840px;
     height: 55px;
+    border-radius: 30px;
     border: none;
     padding: 0 30px;
     outline: none;
     margin: 20px 0;
+    font-size: 16px;
+}
+
+::placeholder {
+    font-weight: 500;
     font-size: 16px;
 
 }
